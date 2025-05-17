@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Montserrat', sans-serif;
+    }
+    body {
+      background-color: #f6f6f6;
+      color: #0f0f0f;
+    }
+    header {
+      background-color: #A3CDDD;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+    header img {
+      display: block;
+      margin: 0 auto; /* Centra la imagen y agrega margen abajo */
+      max-width: 300px;         /* Cambia el tamaño aquí */
+      width: 100%;              /* Hace que sea responsiva */
+      height: auto;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      background-color: #fff;
+      padding: 1rem 0;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    nav a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+    .section {
+      padding: 2rem 1rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .section h2 {
+      text-align: center;
+      margin-bottom: 2rem;
+      font-size: 2rem;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+    .product {
+      background-color: #fff;
+      padding: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .product img {
+      width: 65%;
+      border-radius: 10px;
+      margin-bottom: 1rem;
+    }
+    .contacto {
+      text-align: center;
+    }
+    .footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      background-color: #eaeaea;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="Logo_Sinfondo.PNG" alt="Logo Viento y Tierra" />
+  </header>
+  <nav>
+    <a href="#lenceria">Lencería</a>
+    <a href="#accesorios">Accesorios</a>
+    <a href="#promociones">Promociones</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <section class="section" id="lenceria">
+    <h2>Lencería</h2>
+    <div class="products">
+      <div class="product">
+        <img src="https://source.unsplash.com/featured/?lingerie" alt="Lencería 1">
+        <h3>Conjunto elegante</h3>
+        <p>$45.00</p>
+      </div>
+      <div class="product">
+        <img src="https://source.unsplash.com/featured/?underwear" alt="Lencería 2">
+        <h3>Body encaje</h3>
+        <p>$39.99</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="accesorios">
+    <h2>Accesorios</h2>
+    <div class="products">
+      <div class="product">
+        <img src="fueguitos.jpeg" alt="Porta Encendedores" />
+        <h3>Porta Encendedor</h3>
+        <p>$6500.00</p>
+      </div>
+      <div class="product">
+        <img src="aroscorazondoble.jpeg" alt="Aros">
+        <h3>Aros Corazon Doble</h3>
+        <p>$3800.00</p>
+      </div>
+    <div class="product">
+        <img src="arosequiposfutbol2.jpg" alt="Aros">
+        <h3>Aritos Futboleros</h3>
+        <p>$4000.00</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="promociones">
+    <h2>Promociones</h2>
+    <div class="products">
+      <div class="product">
+        <img src="https://source.unsplash.com/featured/?sale,lingerie" alt="Promo 1">
+        <h3>2x1 en conjuntos</h3>
+        <p>¡Solo por esta semana!</p>
+      </div>
+      <div class="product">
+        <img src="https://source.unsplash.com/featured/?discount" alt="Promo 2">
+        <h3>Hasta 30% OFF</h3>
+        <p>En productos seleccionados</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section contacto" id="contacto">
+    <h2>Contacto</h2>
+    <p>¿Tienes dudas o consultas? </p>
+    <p>Escríbenos a: <strong>+54 9 2954-622644</strong>
+    <p>o por Instagram: <strong>@vientotierra_</strong></p>
+  </section>
+
+  <div class="footer">
+    <p>&copy; 2025 Viento y Tierra. Todos los derechos reservados.</p>
+  </div>
+</body>
+</html>
